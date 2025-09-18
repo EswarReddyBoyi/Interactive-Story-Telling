@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Interactive Storytelling — Multi-Story</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <!-- Story selection screen -->
+    <section id="selector" class="card center">
+      <h1>Choose a Story</h1>
+      <p class="subtitle">Pick a world to explore — Fantasy, Sci-Fi, or Mystery</p>
+      <div class="story-choices">
+        <button class="story-btn" data-story="fantasy">🌲 Fantasy — The Last Lantern</button>
+        <button class="story-btn" data-story="scifi">🚀 Sci-Fi — Echoes of Orion</button>
+        <button class="story-btn" data-story="mystery">🕯️ Mystery — The Hollow Manor</button>
+      </div>
+      <small class="hint">Tip: You can save progress for each story and resume later.</small>
+    </section>
+
+    <!-- Story UI -->
+    <main id="main-ui" class="hidden">
+        <div id="toast" class="toast"></div>
+
+      <header class="topbar">
+        <div class="left">
+          <button id="backBtn" class="control">◀ Back</button>
+          <button id="restartBtn" class="control">⟲ Restart</button>
+        </div>
+        <div class="center title-wrap">
+          <h1 id="title">Title</h1>
+          <div id="subtitle" class="subtitle">Subtitle</div>
+        </div>
+        <div class="right">
+          <button id="saveBtn" class="control">💾 Save</button>
+          <button id="loadBtn" class="control">📂 Load</button>
+          <button id="chooseBtn" class="control">🔀 Choose Story</button>
+        </div>
+      </header>
+
+      <section id="story-area">
+        <div id="image-wrap" aria-hidden="true"></div>
+        <article id="content" tabindex="0"></article>
+        <nav id="choices" class="choices" aria-label="Choices"></nav>
+
+        <div id="end-note" class="end-note hidden"><em>The story ends here. Use Restart or Choose Story to play again.</em></div>
+        <div id="feedback" class="feedback" aria-live="polite"></div>
+      </section>
+
+      <aside id="sidebar" class="sidebar">
+        <h3>Progress</h3>
+        <ol id="breadcrumbs" class="breadcrumbs"></ol>
+        <hr/>
+        <h4>Controls & Tips</h4>
+        <ul>
+          <li>Back: ◀ </li>
+          <li>Save: Ctrl/Cmd + S</li>
+          <li>Restart: Ctrl/Cmd + R</li>
+          <li>Choose Story to switch tales.</li>
+        </ul>
+      </aside>
+      <audio id="bgm" loop>
+  <source src="assets/ambient.mp3" type="audio/mpeg">
+</audio>
+<button id="toggleBgm">🎵 Toggle Music</button>
+
+    </main>
+
+    <footer id="footer" class="footer hidden">
+      <small>Created for unifiedmentor project • eswarboyi7@gmail.com • Eswar Reddy Boyi</small>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

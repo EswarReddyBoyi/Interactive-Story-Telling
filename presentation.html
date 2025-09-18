@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Presentation — The Last Lantern</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <style>
+    body{font-family:Segoe UI,Arial;background:#071025;color:#e6eef6;margin:0;height:100vh;display:flex;align-items:center;justify-content:center}
+    .slide{width:90%;max-width:900px;padding:36px;border-radius:12px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));box-shadow:0 8px 28px rgba(0,0,0,0.6)}
+    h1{margin:0 0 10px}
+    .controls{margin-top:20px;display:flex;gap:10px}
+    button{padding:8px 12px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:inherit;cursor:pointer}
+  </style>
+</head>
+<body>
+  <div class="slide" id="slide">
+    <h1 id="title">Interactive Storytelling — Overview</h1>
+    <div id="body">
+      <p><strong>Slide 1 — Overview</strong><br>Project: The Last Lantern. Tech: HTML/CSS/JS. Multiple endings, save, back.</p>
+    </div>
+
+    <div class="controls">
+      <button id="prev">Prev</button>
+      <button id="next">Next</button>
+      <button id="open">Open App</button>
+    </div>
+  </div>
+
+  <script>
+    const slides = [
+      {title:'Overview', body:'Project: The Last Lantern. Tech: HTML/CSS/JS. Multiple endings, Save, Back, Responsive.'},
+      {title:'Demo', body:'Open the app and click choices to demonstrate branching narratives.'},
+      {title:'Code', body:'Files: index.html, styles.css, script.js. Story is embedded to avoid CORS.'},
+      {title:'How to Run', body:'Open index.html in a browser. No server required.'},
+      {title:'Next Steps', body:'Add images/audio, inventory/flags, PDF export, backend saves.'},
+      {title:'Thanks', body:'Contact: info@unifiedmentor.com'}
+    ];
+    let i=0;
+    const titleEl=document.getElementById('title');
+    const bodyEl=document.getElementById('body');
+    function show(){ titleEl.textContent='Interactive Storytelling — '+slides[i].title; bodyEl.innerHTML=`<p><strong>Slide ${i+1} — ${slides[i].title}</strong><br>${slides[i].body}</p>`; }
+    document.getElementById('prev').onclick=()=>{ if(i>0) i--; show(); };
+    document.getElementById('next').onclick=()=>{ if(i<slides.length-1) i++; show(); };
+    document.getElementById('open').onclick=()=>{ window.open('index.html','_blank'); };
+    show();
+  </script>
+</body>
+</html>

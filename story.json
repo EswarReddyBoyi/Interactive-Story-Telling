@@ -1,0 +1,247 @@
+{
+  "start": "intro",
+  "nodes": {
+    "intro": {
+      "title": "A Silent Village",
+      "text": "You arrive at the edge of a village where every lantern is dim. An old woman hands you a single, flickering lantern and asks for help. Do you accept?",
+      "image": "",
+      "choices": [
+        { "id": "accept", "label": "Accept her request and take the lantern" },
+        { "id": "decline", "label": "Decline and continue on your journey" }
+      ]
+    },
+    "accept": {
+      "title": "The Lantern's Song",
+      "text": "The lantern hums softly. It points you toward the forest where whispers echo. A narrow path or a wide road lies ahead.",
+      "image": "",
+      "choices": [
+        { "id": "path", "label": "Take the narrow forest path" },
+        { "id": "road", "label": "Take the wide road around the forest" }
+      ]
+    },
+    "decline": {
+      "title": "A Missed Chance",
+      "text": "You leave the village, but the road becomes foggy. Later you hear tales of a hero who returned light to the village. You wonder what would have happened.",
+      "image": "",
+      "choices": [
+        { "id": "feelguilt", "label": "Turn back to help" },
+        { "id": "presson", "label": "Press on and seek fortune elsewhere" }
+      ]
+    },
+    "path": {
+      "title": "Deepwood",
+      "text": "The path becomes a tunnel of trees. You face a riddle-keeping fox who asks: 'What must be broken before it can be used?'",
+      "image": "",
+      "choices": [
+        { "id": "riddle_answer", "label": "Say: 'An egg'" },
+        { "id": "riddle_wrong", "label": "Attempt a different answer" }
+      ]
+    },
+    "road": {
+      "title": "Safe Road",
+      "text": "The road is long but steady. You find a merchant who offers you a map in exchange for the lantern.",
+      "image": "",
+      "choices": [
+        { "id": "trade", "label": "Trade the lantern for the map" },
+        { "id": "refuse", "label": "Refuse — keep the lantern" }
+      ]
+    },
+    "riddle_answer": {
+      "title": "Passed",
+      "text": "The fox smiles and guides you to a clearing where light gathers. You find a pool that reflects the lantern's true purpose — to reveal hidden sorrow and heal it.",
+      "image": "",
+      "choices": [
+        { "id": "heal", "label": "Use the lantern to heal the old woman's heart" },
+        { "id": "keep", "label": "Keep the lantern's power for yourself" }
+      ]
+    },
+    "riddle_wrong": {
+      "title": "Wrong Answer",
+      "text": "The fox frowns. The forest grows colder and you feel a tug back to the village — choices matter in these woods.",
+      "image": "",
+      "choices": [
+        { "id": "turnback", "label": "Turn back toward the village" },
+        { "id": "stubborn", "label": "Try to force your way deeper" }
+      ]
+    },
+    "trade": {
+      "title": "Map in Hand",
+      "text": "The map shows a hidden lantern shrine. The merchant expects light in return. You realize this map may lead to a secret ending.",
+      "image": "",
+      "choices": [
+        { "id": "follow_map", "label": "Follow the map to the shrine" },
+        { "id": "burn_map", "label": "Burn the map and keep the lantern's mystery" }
+      ]
+    },
+    "refuse": {
+      "title": "Steadfast",
+      "text": "You refuse. The merchant shrugs and moves on. Keeping the lantern feels heavier now — responsibility grows with light.",
+      "image": "",
+      "choices": [
+        { "id": "path", "label": "Take the narrow forest path" },
+        { "id": "road_continue", "label": "Continue on the road" }
+      ]
+    },
+    "feelguilt": {
+      "title": "Return",
+      "text": "You turn back. The old woman smiles when she sees you — she needed more than light; she needed company.",
+      "image": "",
+      "choices": [
+        { "id": "comfort", "label": "Comfort the old woman" },
+        { "id": "apologize", "label": "Apologize and leave" }
+      ]
+    },
+    "presson": {
+      "title": "Stranger Paths",
+      "text": "You press on. Years later you hear the village's lanterns are lit by another — the world is full of choices you never took.",
+      "image": "",
+      "choices": [
+        { "id": "end_wander", "label": "(Ending) Wandering Life" }
+      ]
+    },
+    "heal": {
+      "title": "Healer's Light",
+      "text": "Using the lantern you ease the old woman's grief. The village slowly regains its warmth. You are offered a place among them.",
+      "image": "",
+      "choices": [
+        { "id": "accept_home", "label": "Accept and stay" },
+        { "id": "decline_home", "label": "Decline and continue journey" }
+      ]
+    },
+    "keep": {
+      "title": "Power's Weight",
+      "text": "You keep the power. It grants you luck — but those you left behind remember. Some doors close forever.",
+      "image": "",
+      "choices": [
+        { "id": "end_lonely", "label": "(Ending) Lonely Fortune" }
+      ]
+    },
+    "turnback": {
+      "title": "A Second Chance",
+      "text": "You return to the village, carrying a deeper respect for the lantern and its duties.",
+      "image": "",
+      "choices": [
+        { "id": "heal", "label": "Use the lantern to heal the old woman's heart" }
+      ]
+    },
+    "stubborn": {
+      "title": "Lost",
+      "text": "Forcing deeper only leads to getting lost. The lantern dims under strain. You eventually find your way out, humbled.",
+      "image": "",
+      "choices": [
+        { "id": "presson", "label": "Press on and seek fortune elsewhere" },
+        { "id": "turnback", "label": "Return to the village" }
+      ]
+    },
+    "follow_map": {
+      "title": "Shrine of Lanterns",
+      "text": "The shrine thanks you. The lantern is revealed to be one of many — your choice to trade or keep echoes through time.",
+      "image": "",
+      "choices": [
+        { "id": "end_shrine", "label": "(Ending) Shrine Keeper" }
+      ]
+    },
+    "burn_map": {
+      "title": "Mystery Remains",
+      "text": "You burn the map. Mystery keeps you moving. The lantern's secrets remain yours — forever a traveler.",
+      "image": "",
+      "choices": [
+        { "id": "end_mystery", "label": "(Ending) Eternal Mystery" }
+      ]
+    },
+    "road_continue": {
+      "title": "Road's Reward",
+      "text": "Continuing the road you meet a troupe of performers. They invite you to join. Life changes shape once again.",
+      "image": "",
+      "choices": [
+        { "id": "join", "label": "Join the troupe" },
+        { "id": "refuse_troupe", "label": "Refuse and carry on" }
+      ]
+    },
+    "comfort": {
+      "title": "Comfort Given",
+      "text": "Your company heals her. She reveals she was once the village's lantern keeper and passes a blessing to you.",
+      "image": "",
+      "choices": [
+        { "id": "accept_home", "label": "Accept and stay" },
+        { "id": "decline_home", "label": "Decline and continue journey" }
+      ]
+    },
+    "apologize": {
+      "title": "An Honest Apology",
+      "text": "You apologize and leave. You feel lighter, but sometimes wonder if staying would have changed more than you know.",
+      "image": "",
+      "choices": [
+        { "id": "presson", "label": "Press on and seek fortune elsewhere" }
+      ]
+    },
+    "accept_home": {
+      "title": "A New Home",
+      "text": "You become the village's new lantern keeper. The ending is warm: community, ritual, and steady light.",
+      "image": "",
+      "choices": [
+        { "id": "end_home", "label": "(Ending) Keeper of Light" }
+      ]
+    },
+    "decline_home": {
+      "title": "Road Again",
+      "text": "You decline and leave with a gentle blessing. The world waits with many paths.",
+      "image": "",
+      "choices": [
+        { "id": "end_wander", "label": "(Ending) Wandering Life" }
+      ]
+    },
+    "join": {
+      "title": "Stage Bright",
+      "text": "On stage, you learn stories and bring light — literal and figurative — to towns. Life becomes performance and meaning.",
+      "image": "",
+      "choices": [
+        { "id": "end_performer", "label": "(Ending) The Performer" }
+      ]
+    },
+    "refuse_troupe": {
+      "title": "Solo Road",
+      "text": "You refuse and carry on, your own story unfolding quietly.",
+      "image": "",
+      "choices": [
+        { "id": "end_wander", "label": "(Ending) Wandering Life" }
+      ]
+    },
+    "end_wander": {
+      "title": "Wandering Life",
+      "text": "You wander the world, lantern swinging. Some nights you wonder about the village — in that wondering you find small joy.",
+      "image": "",
+      "choices": []
+    },
+    "end_lonely": {
+      "title": "Lonely Fortune",
+      "text": "Wealth follows, but companionship fades. You learn that light without purpose can be a weight.",
+      "image": "",
+      "choices": []
+    },
+    "end_shrine": {
+      "title": "Shrine Keeper",
+      "text": "You stay to tend the shrine — a sacred duty, a rare honor. The village's light spreads far over seasons.",
+      "image": "",
+      "choices": []
+    },
+    "end_mystery": {
+      "title": "Eternal Mystery",
+      "text": "The roads remain mysterious. You never fully solve the lantern's origin, and that's part of its charm.",
+      "image": "",
+      "choices": []
+    },
+    "end_home": {
+      "title": "Keeper of Light",
+      "text": "This ending is warm: community, ritual, & steady light. You find purpose and home.",
+      "image": "",
+      "choices": []
+    },
+    "end_performer": {
+      "title": "The Performer",
+      "text": "You perform tales for many towns. The lantern becomes a prop and a symbol — your life is stories.",
+      "image": "",
+      "choices": []
+    }
+  }
+}
