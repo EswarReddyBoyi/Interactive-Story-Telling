@@ -6,13 +6,21 @@ Users can explore different story paths, make decisions, and experience dynamic 
 ### Features
 
 📖 Branching Narrative – A story with multiple decision points where users choose their path.
+
 🎭 Dynamic Choices – Buttons update content dynamically based on user decisions.
+
 🎨 Dark Animated Background – Smooth multi-color gradient animations for a moody atmosphere.
+
 🖼️ Fixed-Sized Story Area – Consistent layout with fixed width/height for story images and text.
+
 🌑 Image Transparency Overlay – Dark overlay ensures readability of text over background images.
+
 🎵 Background Music Toggle – Optional music player with toggle button.
+
 📱 Responsive Design – Works across desktop and mobile with adaptive layouts.
+
 🧭 Breadcrumb Navigation – Allows users to revisit previous story choices.
+
 🔔 Toast Notifications – Smooth feedback messages for user interactions.
 
 ### Tech Stack
@@ -62,13 +70,16 @@ Hover & Focus Effects – Interactive feedback on story buttons.
 ### Getting Started
 
 ***Clone the repository***
-git clone https://github.com/your-username/interactive-story.git
+````
+git clone https://github.com/22BCE8093-Eswar/Interactive-Story-Telling
 cd interactive-story
+````
 
 ***Open in browser***
 
 Simply open index.html in your favorite browser.
-No server setup required 🚀.
+
+No server setup required .
 
 ### Usage
 
@@ -101,9 +112,11 @@ On mobile → Story area adapts full width with adjusted height.
 ### Author
 
 Developed by Eswar Reddy Boyi
-📧 Contact: eswarboyi7@gmail.com
+
+Contact: eswarboyi7@gmail.com
 
 
 ### License
 
 This project is licensed under the MIT License – feel free to use, modify, and distribute.
+
