@@ -3,6 +3,14 @@
 An immersive choose-your-own-adventure style web application built with HTML, CSS, and JavaScript.
 Users can explore different story paths, make decisions, and experience dynamic visuals with a dark-themed animated background.
 
+ -------------------------------------------------
+
+### Live Demo
+
+https://interactive-story-telling.netlify.app/
+
+ -------------------------------------------------
+
 ### Features
 
 📖 Branching Narrative – A story with multiple decision points where users choose their path.
@@ -23,6 +31,8 @@ Users can explore different story paths, make decisions, and experience dynamic 
 
 🔔 Toast Notifications – Smooth feedback messages for user interactions.
 
+ -------------------------------------------------
+
 ### Tech Stack
 
 ***Frontend:***
@@ -41,6 +51,8 @@ Dark theme with animated gradients
 
 Overlay layers for readability
 
+ -------------------------------------------------
+
 ***How It Works***
 
 The story area (#story-area) is fixed at 800x500px for consistency.
@@ -53,6 +65,8 @@ A dark overlay ensures text is always readable, regardless of background image.
 
 The gradient background animates continuously, creating an engaging mood.
 
+ -------------------------------------------------
+
 ### Styling Highlights
 
 Glassmorphism Cards – Transparent, blurred panels for UI elements.
@@ -63,10 +77,13 @@ Responsive Scaling – Story area adjusts gracefully on smaller screens.
 
 Hover & Focus Effects – Interactive feedback on story buttons.
 
+ -------------------------------------------------
+
 ### Screenshots
 
 
-
+ -------------------------------------------------
+ 
 ### Getting Started
 
 ***Clone the repository***
@@ -97,6 +114,8 @@ On desktop → Fixed-width story area with sidebar.
 
 On mobile → Story area adapts full width with adjusted height.
 
+ -------------------------------------------------
+
 ### Future Enhancements
 
 📝 Add more story branches & endings
@@ -119,4 +138,5 @@ Contact: eswarboyi7@gmail.com
 ### License
 
 This project is licensed under the MIT License – feel free to use, modify, and distribute.
+
 
