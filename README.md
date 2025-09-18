@@ -81,6 +81,16 @@ Hover & Focus Effects – Interactive feedback on story buttons.
 
 ### Screenshots
 
+<table>
+  <tr>
+    <th> Index Page</th>
+    <th> Story Page</th>
+  </tr>
+  <tr>
+    <td><img src="assets/images1.png" width="370"/> </td>
+    <td><img src="assets/images2.png" width="370"/> </td>
+  </tr>
+</table>
 
  -------------------------------------------------
  
@@ -138,5 +148,6 @@ Contact: eswarboyi7@gmail.com
 ### License
 
 This project is licensed under the MIT License – feel free to use, modify, and distribute.
+
 
 
