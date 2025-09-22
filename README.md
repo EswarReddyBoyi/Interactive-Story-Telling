@@ -98,7 +98,7 @@ Hover & Focus Effects – Interactive feedback on story buttons.
 
 ***Clone the repository***
 ````
-git clone https://github.com/22BCE8093-Eswar/Interactive-Story-Telling
+git clone https://github.com/EswarReddyBoyi/Interactive-Story-Telling
 cd interactive-story
 ````
 
@@ -148,6 +148,7 @@ Contact: eswarboyi7@gmail.com
 ### License
 
 This project is licensed under the MIT License – feel free to use, modify, and distribute.
+
 
 
 
